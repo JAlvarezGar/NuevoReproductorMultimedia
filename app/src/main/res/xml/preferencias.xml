@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <EditTextPreference
+            android:key="nombre"
+            android:summary="nombre y/o apellido"
+            android:title="nombre"
+            android:icon="@mipmap/usuario"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <CheckBoxPreference
+            android:key="gustos"
+            android:summary="marca solo si te gusta el Rock"
+            android:title="Gustos musicales"
+            android:icon="@mipmap/nota"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

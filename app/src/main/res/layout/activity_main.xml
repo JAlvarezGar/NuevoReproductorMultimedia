@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/titulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/tvReproductor"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/reproductor"
+        app:layout_constraintEnd_toStartOf="@+id/Reproductor"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/tvPreferencias"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="348dp"
+        android:text="@string/preferencias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Preferencias"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReproductor"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <ImageButton
+        android:id="@+id/Reproductor"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="92dp"
+        android:contentDescription="@string/reproductor_boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:srcCompat="@mipmap/reproductor" />
+
+    <ImageButton
+        android:id="@+id/Preferencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="92dp"
+        android:contentDescription="@string/preferencias_boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Reproductor"
+        app:srcCompat="@mipmap/settings" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NuevoReproductorMultimedia</string>
+    <string name="titulo">REPRODUCTOR MULTIMEDIA</string>
+    <string name="reproductor">REPRODUCTOR</string>
+    <string name="preferencias">PREFERENCIAS</string>
+    <string name="reproductor_boton">Reproductor mp3</string>
+    <string name="preferencias_boton">PREFERENCIAS</string>
+</resources>
