@@ -6,4 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".Reproductor">
 
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/stop"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/play" />
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/stop" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toEndOf="@+id/stop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/pause" />
+
+    <ImageView
+        android:id="@+id/spmario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/spmario" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/superReproductor"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/spmario"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estado"
+        android:hint="@string/estado_de_la_reproducci_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play"
+        app:layout_constraintVertical_bias="0.342" />
 </androidx.constraintlayout.widget.ConstraintLayout>
