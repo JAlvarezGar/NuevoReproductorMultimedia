@@ -40,15 +40,13 @@
         android:id="@+id/tvPreferencias"
         android:layout_width="100dp"
         android:layout_height="24dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="348dp"
         android:text="@string/preferencias"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Preferencias"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.689"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvReproductor"
-        app:layout_constraintVertical_bias="0.927" />
+        app:layout_constraintVertical_bias="0.178" />
 
     <ImageButton
         android:id="@+id/Reproductor"
@@ -68,8 +66,10 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="92dp"
         android:contentDescription="@string/preferencias_boton"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Reproductor"
+        app:layout_constraintVertical_bias="0.003"
         app:srcCompat="@mipmap/settings" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

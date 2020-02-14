@@ -7,5 +7,5 @@
     <string name="preferencias_boton">PREFERENCIAS</string>
     <string name="superReproductor">Super Reproductor mp3</string>
     <string name="estado">Estado de la reproduccion</string>
-    <string name="estado_de_la_reproducci_n">Estado de la reproducción</string>
+    <string name="estado_de_la_reproduccion">Estado de la reproducción</string>
 </resources>

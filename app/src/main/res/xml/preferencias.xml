@@ -11,6 +11,7 @@
 
     <PreferenceCategory>
         <CheckBoxPreference
+
             android:key="gustos"
             android:summary="marca solo si te gusta el Rock"
             android:title="Gustos musicales"

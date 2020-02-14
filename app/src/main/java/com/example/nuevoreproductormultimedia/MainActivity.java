@@ -3,7 +3,9 @@ package com.example.nuevoreproductormultimedia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity implements ImageButton.OnCli
         imagB1.setOnClickListener(this);
         imagB2.setOnClickListener(this);
     }
+
+
 
     @Override
     public void onClick(View v) {
